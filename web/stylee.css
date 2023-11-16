@@ -1,0 +1,240 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #87CEEB; /* Sky Blue background color */
+}
+header {
+    text-align: center;
+    padding: 10px;
+    background-color: #4682B4; /* Steel Blue header color */
+    color: white;
+}
+nav {
+    background-color: #87CEEB; /* Sky Blue navbar background color */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+
+nav a {
+    display: inline-block;
+    color: #333; /* Dark text color for links */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #4682B4; /* Steel Blue text color on hover */
+}
+section {
+    margin: 20px 0;
+    background-color: #ADD8E6; /* Light Blue section background color */
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* ... (previous styles) ... */
+
+section#contact {
+background-color: #B0E0E6; /* Powder Blue section background color */
+color: #333; /* Dark text color for this section */
+padding: 15px;
+border-radius: 8px;
+position: relative;
+}
+
+form {
+max-width: 400px;
+margin: 0 auto;
+}
+
+label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+}
+
+input, textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 15px;
+border: 1px solid #4682B4; /* Steel Blue border color */
+border-radius: 4px;
+box-sizing: border-box;
+transition: border-color 0.3s ease-in-out;
+}
+
+input[type="submit"] {
+background-color: #4682B4; /* Steel Blue submit button background color */
+color: white;
+cursor: pointer;
+transition: background-color 0.3s ease-in-out;
+}
+
+input:focus,
+textarea:focus {
+border-color: #87CEEB; /* Lighter blue on focus */
+}
+
+input[type="submit"]:hover {
+background-color: #356094; /* Darker Steel Blue on hover */
+}
+
+/* ... (remaining styles) ... */
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4682B4; /* Steel Blue button background color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#back-to-top:hover {
+    background-color: #356094; /* Darker Steel Blue on hover */
+}
+
+/* ... (previous styles) ... */
+
+footer {
+background-color: #4682B4; /* Steel Blue footer color */
+color: white;
+padding: 20px 0;
+text-align: center;
+}
+
+.footer-content {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+
+.footer-section {
+max-width: 300px;
+margin-bottom: 20px;
+}
+
+.footer-section h3 {
+border-bottom: 2px solid white;
+padding-bottom: 5px;
+}
+
+.footer-section p {
+line-height: 1.6;
+}
+
+.footer-section ul {
+list-style-type: none;
+padding: 0;
+}
+
+.footer-section a {
+color: white;
+text-decoration: none;
+}
+
+.footer-section a:hover {
+text-decoration: underline;
+}
+
+.footer-bottom {
+margin-top: 20px;
+}
+/* ... (previous styles) ... */
+
+
+/* ... (previous styles) ... */
+
+section#faqs {
+background-color: #B0E0E6; /* Alice Blue section background color */
+color: #333; /* Dark text color for this section */
+padding: 20px;
+border-radius: 8px;
+margin-bottom: 30px;
+}
+
+h2 {
+color: #4682B4; /* Steel Blue heading color */
+}
+
+h3 {
+color: #4682B4; /* Steel Blue subheading color */
+margin-top: 20px;
+}
+
+p {
+line-height: 1.6;
+margin-bottom: 15px;
+}
+
+/* Style the questions */
+
+
+/* Style the answers */
+p::before {
+content: "▸";
+margin-right: 5px;
+color: #4682B4; /* Steel Blue arrow color */
+}
+
+/* ... (remaining styles) ... */
+
+/* ... (remaining styles) ... */
+
+
+/* ... (remaining styles) ... */
+
+/* Slick slider styles */
+.slider {
+    width: 80%; /* Adjust the width of the slider */
+    margin: auto;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 24px; /* Adjust the font size of the navigation arrows */
+    color: #4682B4; /* Steel Blue arrow color */
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    color: #356094; /* Darker Steel Blue on hover */
+}
+
+.slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0;
+}
+
+.slick-dots li {
+    margin: 0 5px;
+}
+
+.slick-dots button {
+    font-size: 14px; /* Adjust the font size of the dots */
+    width: 14px;
+    height: 14px;
+    border: 2px solid #4682B4; /* Steel Blue border color */
+    background-color: transparent;
+    border-radius: 50%;
+    transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.slick-dots button:hover {
+    background-color: #4682B4; /* Steel Blue background color on hover */
+}
+
+.slick-dots .slick-active button {
+    background-color: #4682B4; /* Steel Blue background color for active dot */
+    border-color: #4682B4; /* Steel Blue border color for active dot */
+}
